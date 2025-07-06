@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import profile from '../../../public/images/me.jpg';
-import FiverrIcon from '../assets/svgs/media/fiverr-icon';
 import LinkedinIcon from '../assets/svgs/media/linkedin-icon';
+import TwitterIcon from '../assets/svgs/media/twitter-icon';
 import { calSans } from '@/app/fonts';
 import { getTranslation } from '@/get-translation';
 import { Navigation } from '../components/navigation';
@@ -58,11 +58,11 @@ export default async function ResumePage(props: LangParams) {
                 Linkedin
               </Link>
               <Link
-                href="https://www.fiverr.com/santipac"
-                className="inline-flex items-center w-fit px-2 py-1 text-neutral-400  hover:text-emerald-400 transition-colors duration-300 gap-2 rounded group text-sm"
+                href="https://x.com/paci_dev"
+                className="inline-flex items-center w-fit px-2 py-1 text-neutral-400  hover:text-neutral-300 transition-colors duration-300 gap-2 rounded group text-sm"
               >
-                <FiverrIcon className="h-7 w-7 m-0 p-0" />
-                Fiverr
+                <TwitterIcon className="h-7 w-7 m-0 p-0" />
+                Twitter
               </Link>
             </article>
           </section>
@@ -115,7 +115,7 @@ export default async function ResumePage(props: LangParams) {
                 {tools.map(tec => (
                   <span
                     key={tec.label}
-                    className="px-2 py-1 bg-zinc-500/20 text-zinc-400 rounded-full text-sm shadow-md"
+                    className="px-2 py-1 bg-emerald-500/20 text-emerald-400 rounded-full text-sm shadow-md"
                   >
                     {tec.label}
                   </span>

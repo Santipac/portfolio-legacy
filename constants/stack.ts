@@ -5,22 +5,21 @@ export const languages = [
 ];
 
 export const tools = [
-    { label: 'Figma', type: 'tools' },
-    { label: 'Postman', type: 'tools' },
-    { label: 'DataGrip', type: 'tools' },
-    { label: 'VSCode', type: 'tools' },
-    { label: 'Expo', type: 'tools' },
+    { label: 'Vitest', type: 'tools' },
+    { label: 'Playwright', type: 'tools' },
+    { label: 'Docker', type: 'tools' },
 ];
 
 export const backend = [
     { label: 'Node', type: 'backend' },
+    { label: 'Hono', type: 'backend' },
     { label: 'Express', type: 'backend' },
     { label: 'Nest', type: 'backend' },
     { label: 'tRPC', type: 'backend' },
     { label: 'PrismaORM', type: 'backend' },
-    { label: 'AWS', type: 'backend' },
-    { label: 'JsonWebToken', type: 'backend' },
-    { label: 'Docker', type: 'backend' },
+    { label: 'DrizzleORM', type: 'backend' },
+    { label: 'PostgreSQL', type: 'backend' },
+    { label: 'Supabase', type: 'backend' },
 ];
 
 export const frontend = [
@@ -31,8 +30,8 @@ export const frontend = [
     { label: 'Redux', type: 'frontend' },
     { label: 'Zustand', type: 'frontend' },
     { label: 'React Query', type: 'frontend' },
-    { label: 'Material UI', type: 'frontend' },
-    { label: 'Chraka UI', type: 'frontend' },
+    { label: 'Storybook', type: 'frontend' },
+    { label: 'Testing Library', type: 'frontend' },
     { label: 'TailwindCSS', type: 'frontend' },
 ];
 
