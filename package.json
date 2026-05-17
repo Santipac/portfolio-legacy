@@ -20,14 +20,14 @@
     "clsx": "^1.2.1",
     "date-fns": "^4.1.0",
     "eslint": "8.41.0",
-    "eslint-config-next": "13.4.3",
+    "eslint-config-next": "^15.5.18",
     "framer-motion": "^10.12.16",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.221.0",
     "markdown-to-jsx": "^7.6.2",
     "negotiator": "^0.6.3",
-    "next": "^14.2.4",
-    "postcss": "8.4.23",
+    "next": "^15.5.18",
+    "postcss": "^8.5.14",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "^0.33.4",
@@ -41,5 +41,8 @@
     "@tailwindcss/typography": "^0.5.9",
     "@types/negotiator": "^0.6.1",
     "tailwindcss-debug-screens": "^2.2.1"
+  },
+  "overrides": {
+    "postcss": "^8.5.14"
   }
 }
